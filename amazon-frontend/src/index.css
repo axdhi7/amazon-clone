@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+
+.scrollbar-hide {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none; 
+  }
+
+.success{
+  background-color: green;
+  color: white;
+  opacity: 1;
+}
+
+.error{
+  background-color: red;
+  color: white;
+  opacity: 1;
+}
+
+.invisible{
+  opacity: 0;
+}
+
+
+
+@media (max-width:460px){
+  #bannerProdInfo{
+      top: 480px;
+  }
+}
+
+@media (max-width:400px){
+  #bannerProdInfo{
+      top: 435px;
+  }
+}
+
+@media (max-width:321px){
+  #bannerProdInfo{
+      top: 390px;
+  }
+}
+
+
+@media (max-width:400px){
+  #featuredHomeProd{
+      padding-top: 260px;
+  }
+}
